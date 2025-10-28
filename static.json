@@ -18,7 +18,7 @@
       },
       "components": {
         "Result": {
-          "heading": "entries[0].content.name",
+          "heading": "entries[0].content.title",
           "fields": [
             {
               "label": "Title",
