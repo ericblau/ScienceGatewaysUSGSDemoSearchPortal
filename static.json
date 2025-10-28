@@ -21,12 +21,12 @@
           "heading": "entries[0].content.name",
           "fields": [
             {
-              "label": "Tags",
-              "property": "entries[0].content.tags"
+              "label": "Title",
+              "property": "entries[0].content.title"
             },
             {
-              "label": "Region",
-              "property": "entries[0].content.region"
+              "label": "Summary",
+              "property": "entries[0].content.summary"
             }
           ]
         }
@@ -36,14 +36,14 @@
           "index": "6d222eba-980f-410c-9a58-52a785d660ea",
           "facets": [
             {
-              "name": "Tags",
-              "field_name": "tags",
+              "name": "Types",
+              "field_name": "browseTypes",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "Region",
-              "field_name": "region",
+              "name": "Categories",
+              "field_name": "browseCategories",
               "type": "terms",
               "size": 10
             }
